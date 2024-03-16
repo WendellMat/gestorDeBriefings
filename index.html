@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <title>Teste Seleção - AYTY</title>
+</head>
+<body>
+
+    <header id="header">
+        <img id="logo" src="assets/logo.png" alt="logo">
+        <li class="buttons" style="list-style-type: none;">
+            <ul><button class="register-button" id="open-modal">Cadastrar</button></ul>
+            <ul><button class="list-button" id="listButton">Listar</button></ul>
+        </li>
+    </header>
+    <main id="main">
+        <div id="nothing-found" class=""></div>
+        <div id="filter-field" class="hide">
+            <div id="filter">
+                <select class="filter-options status" id="input-filter-status">
+                    <option value="negociacao">Em Negociação</option>
+                    <option value="aprovado">Aprovado</option>
+                    <option value="finalizado">Finalizado</option>
+                </select>
+                <button id="filter-button">🔍</button>
+            </div>
+        </div>
+        <div class="hide" id="fade"></div>
+        <div class="hide" id="modal">
+            <div class="modal-header">Cadastro</div>
+            <div class="register-form">
+                <label class="client-name-title">Nome do Cliente</label>
+                <input type="text" class="campo" id="input-field-name">
+                <label class="description-title">Descrição da atividade solicitada pelo cliente</label>
+                <textarea cols="30" rows="7" class="campo" id="input-field-description"></textarea>
+            </div>
+            <div>
+                <select class="campo" name="status" class="status" id="input-field-status">
+                    <option value="negociacao" selected>Em Negociação</option>
+                    <option value="aprovado">Aprovado</option>
+                    <option value="finalizado">Finalizado</option>
+                </select>
+            </div>
+            <div class="options">
+                <button type="submit" class="button register-button close-modal" id="saveButton">Salvar</button>
+                <button class="button list-button close-modal">Cancelar</button>
+            </div>
+        </div>
+        <div id="list-here">
+            
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script defer type="module" src="./scripts/script.js"></script>
+</body>
+</html>
