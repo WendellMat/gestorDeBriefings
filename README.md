@@ -1,7 +1,7 @@
 
 # Gestor de Briefings
 
-Projeto criado com o intuito de participar do processo seletivo do Ayty para atuar juntamente a empresa parceira como desenvolvedor FullStack
+Projeto criado com o intuito de participar do processo seletivo do Ayty para atuar juntamente a empresa parceira como desenvolvedor FullStack.
 
 O projeto é uma aplicação web intuitiva e eficiente para gerenciar briefings de clientes. Os usuários podem facilmente cadastrar novos briefings, visualizar os briefings existentes e filtrá-los com base em diferentes estados, como "Em Negociação", "Aprovado" ou "Finalizado". A aplicação enfatiza uma interface de usuário agradável e responsiva, com botões e formulários estilizados para proporcionar uma experiência de usuário agradável e eficaz.
 
