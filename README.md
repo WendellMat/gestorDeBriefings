@@ -20,6 +20,7 @@ Entrega 5:
 # Como posso ver o projeto funcionando?
 
 Basta clicar no link abaixo:
+
 [![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://gestor-de-briefings.vercel.app/)
 
 Se achar que o tamanho dos elementos na tela ficou muito grande, sugiro que mude o zoom do navegador para 80%, infelizmente cometi esse erro, não vai se repetir 😅.
